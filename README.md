@@ -1,4 +1,4 @@
-# begincodewithme.github.io
+# Rock, Paper and Scissor
 import random
 
 while True:
