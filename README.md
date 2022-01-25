@@ -2,11 +2,10 @@
 
 import random
 
-while True:
+While True:
    
 <!--    Random choices for computer -->
     choice  = ["rock", "paper", "scissor"]
-    
     computer = random.choice(choices)
     
 <!--    Take input from player -->
