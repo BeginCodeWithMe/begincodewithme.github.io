@@ -1,4 +1,6 @@
-# Rock, Paper and Scissor
+# Rock, Paper and Scissor Game using Python
+
+<h1> Rock, Paper and Scissor Game using Python </h1>
 import random
 
 while True:
