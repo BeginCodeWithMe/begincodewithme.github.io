@@ -4,7 +4,7 @@ import random
 
 while True:
    
-<!--     Random choices for computer -->
+<!--    # Random choices for computer -->
     choices = ["rock", "paper", "scissor"]
     
     computer = random.choice(choices)
