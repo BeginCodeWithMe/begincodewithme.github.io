@@ -1,12 +1,12 @@
-# Rock, Paper and Scissor Game using Python
-
 <h1> Rock, Paper and Scissor Game using Python </h1>
+
 import random
 
 while True:
    
    # Random choices for computer
     choices = ["rock", "paper", "scissor"]
+    
     computer = random.choice(choices)
     
     # Take input from player
