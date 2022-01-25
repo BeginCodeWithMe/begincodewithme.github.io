@@ -4,8 +4,8 @@ import random
 
 while True:
    
-<!--    # Random choices for computer -->
-    choices = ["rock", "paper", "scissor"]
+<!--    Random choices for computer -->
+    choice  = ["rock", "paper", "scissor"]
     
     computer = random.choice(choices)
     
@@ -26,13 +26,11 @@ while True:
             print("Computer Win")
         else:
             print("Player Win")
-    
     elif player == "paper":
         if computer == "rock":
             print("Player Win")
         else:
             print("Computer Win")
-    
     elif player == "paper":
         if computer == "scissor":
             print("Computer Win")
