@@ -1,5 +1,5 @@
-<!-- <h1> Rock, Paper and Scissor Game using Python </h1>
- -->
+<h1> Rock, Paper and Scissor Game using Python </h1>
+
 import random
 
 while True:
