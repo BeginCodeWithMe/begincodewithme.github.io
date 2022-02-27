@@ -54,9 +54,11 @@ quit = 0
 while user != quit:
 
       # To take user input 
+    
     x = int(input(" Enter limit of the Number till you want to Guess: "))
    
       # Computer Choose a random number between the range 1 to x
+    
     computer = random.randint(1, x)
     user = ""
     print("\n")
