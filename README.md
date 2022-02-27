@@ -43,6 +43,7 @@ While True:
   <br>      
   <hr>
   <br>
+  
   <h1> Guess The Number Game </h1>
  
 
@@ -53,11 +54,11 @@ user = ""
 quit = 0
 while user != quit:
 
-      # To take user input 
+<!-- To take user input -->
     
     x = int(input(" Enter limit of the Number till you want to Guess: "))
    
-      # Computer Choose a random number between the range 1 to x
+<!-- Computer Choose a random number between the range 1 to x -->
     
     computer = random.randint(1, x)
     user = ""
@@ -69,21 +70,21 @@ while user != quit:
             print("Quiting...")
             break
       
-      # If user guess a number higher than the number choosed by the computer
+<!-- If user guess a number higher than the number choosed by the computer -->
       
         elif user > computer:
             print("Ohh! too High")
             
-      # If user guess a number lower than the number choosed by the computer
+<!-- If user guess a number lower than the number choosed by the computer -->
    
         elif user < computer:
             print("Ohh! too Low")
             
-      # If user guess the right number
+<!-- If user guess the right number -->
         elif user == computer:
             print("Boom! you Guess the Right Number")
             
-      # If user guess a number higher than the range
+<-- If user guess a number higher than the range-->
         else:
             print(
                 "Ohh please check your Number it's out of the Limit You have Entered Above")
