@@ -44,7 +44,11 @@ While True:
   <hr>
   <br>
   
-  <h1> Guess The Number Game </h1>
+  
+  
+  
+
+<h1> Guess The Number Game </h1>
  
 
 import random
@@ -81,10 +85,11 @@ while user != quit:
             print("Ohh! too Low")
             
 <!-- If user guess the right number -->
+
         elif user == computer:
             print("Boom! you Guess the Right Number")
             
 <-- If user guess a number higher than the range-->
+
         else:
-            print(
-                "Ohh please check your Number it's out of the Limit You have Entered Above")
+            print("Ohh please check your Number it's out of the Limit You have Entered Above")
