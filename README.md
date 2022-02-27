@@ -39,3 +39,50 @@ While True:
 <!--     # What to do if player enter other than the available choices -->
     else:
         print("Invalid Input")
+        
+  <br>      
+  <hr>
+  <br>
+  <h1> Gusee The Number Game </h1>
+  
+  # Guess The Number By User :
+
+import random
+
+x = ""
+user = ""
+quit = 0
+while user != quit:
+
+   # To take user input 
+    x = int(input(" Enter limit of the Number till you want to Guess: "))
+   
+   # Computer Choose a random number between the range 1 to x
+    computer = random.randint(1, x)
+    user = ""
+    print("\n")
+    while user != computer:
+        user = int(input("If you want to Quit the Game Type 0 else "
+                         "\n Guess the Number: "))
+        if user == quit:
+            print("Quiting...")
+            break
+      
+   # If user guess a number higher than the number choosed by the computer
+      
+        elif user > computer:
+            print("Ohh! too High")
+            
+   # If user guess a number lower than the number choosed by the computer
+   
+        elif user < computer:
+            print("Ohh! too Low")
+            
+  # If user guess the right number
+        elif user == computer:
+            print("Boom! you Guess the Right Number")
+            
+  # If user guess a number higher than the range
+        else:
+            print(
+                "Ohh please check your Number it's out of the Limit You have Entered Above")
