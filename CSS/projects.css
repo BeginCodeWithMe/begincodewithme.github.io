@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(/sources/project-bg.jpg) ;
+    background-repeat:no-repeat;
+}
+header{
+    display: inline-flex;
+}
+
+.website{
+    color: blue;
+}
+
+.header-links{
+    display: inline-flex;
+    margin-right:20px;
+    margin-top: 10px;
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    list-style-type:none ;
+}
+#Welcome{
+    color: #808080;
+    font-size: 70px;
+    text-align: center;
+}
+h2{
+    color: #fff;
+    text-align: center;
+}
+
+#welcome-img{
+    margin-left: 37%;
+}
+footer{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 10%;
+    color: white;
+    font-size: 30px;
+    /* background-color: #808080; */
+}
+
+
